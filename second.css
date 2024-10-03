@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f6d365, #fda085);
+    color: #333;
+    line-height: 1.6;
+}
+
+nav {
+    background: linear-gradient(90deg, #007991, #78ffd6);
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #ffaf40;
+}
+
+header {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+header h1 {
+    font-size: 3.5rem;
+}
+
+header p {
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.box {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+}
+
+h2 {
+    color: #007991;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#skills ul, #projects ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#skills ul li, #projects ul li {
+    background: linear-gradient(135deg, #f093fb, #f5576c);
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    flex-basis: calc(33% - 40px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+#skills ul li:hover, #projects ul li:hover {
+    background: linear-gradient(135deg, #43e97b, #38f9d7);
+}
+
+#contact a {
+    color: #ff758c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #2575fc;
+}
+
+footer {
+    background: linear-gradient(135deg, #43e97b, #38f9d7);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+/* body{
+    background-image: radial-gradient(to right,rgb(66, 120, 247),rgb(200, 96, 40));
+} */
+ html{
+    scroll-behavior: smooth;
+ }
